@@ -1,0 +1,91 @@
+.action-img {
+    display: inline-block;
+    height:  20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.action-img img {
+    height:  100%;
+    width: 100%;
+}
+
+.login-form {
+    width: 400px;
+    margin: auto;
+}
+
+.input-sizing {
+    width: 400px !important;
+}
+
+.textarea-sizing {
+    width: 400px;
+    height: 416px;
+    resize: none;
+}
+
+.textarea-title-block-sizing {
+    padding: 200px 0px !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+
+.back-office-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.ASC::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../images/down-arrow.png) no-repeat;
+    background-size: 100% 100%;
+    right: 0px;
+    top: 0px;
+}
+
+.DESC::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../images/up-arrow.png) no-repeat;
+    background-size: 100% 100%;
+    right: 0px;
+    top: 2px;
+}
+
+.table-buttons {
+    width: 100px;
+}
+
+.valid {
+    border: 1px solid #aabe21 !important;
+    color: #aabe21;
+    background: url(../images/validFild.png) no-repeat;
+    background-position: 370px  10px;
+}
+
+.error-input {
+    border: 1px solid #b4272d !important;
+    color: #b4272d;
+}
+
+.errorMessage{
+    position: absolute;
+    display: block;
+    height: 35px;
+    font-size: 13px;
+    top: 32px;
+    left: 150px;
+    color: rgb(134, 138, 137)
+}
+
+.modal-content{
+    padding: 20px;
+}
