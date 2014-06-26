@@ -7,18 +7,21 @@ class ParserController extends \Phalcon\Mvc\Controller
 {
 
     function indexAction() {
+        $model = \rdsServices::find(array("order" => 'id'));
         $this->view->setVars([
-
+            'data' => $model,
         ]);
     }
 
-    function parsAction() {
-        $name           = $this->request->getPost('name', 'string');
-        $site         = $this->request->getPost('site', 'string');
-        $result = $this->rds->echosessionRds( $name, $site);
-        $this->view->disableLevel(\Phalcon\Mvc\View::LEVEL_MAIN_LAYOUT);
-        $this->view->setVars([
-            'result' => $result
-        ]);
+    function addAction() {
+
+    }
+
+    function deleteAction() {
+
+    }
+
+    function updateAction() {
+
     }
 }
